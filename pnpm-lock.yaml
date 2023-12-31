@@ -21,7 +21,7 @@ importers:
         specifier: latest
         version: 1.11.2
 
-  apps/docs:
+  apps/admin:
     dependencies:
       '@repo/ui':
         specifier: workspace:*
@@ -56,7 +56,7 @@ importers:
         version: 17.0.45
       '@types/react':
         specifier: ^18.0.22
-        version: 18.2.5
+        version: 18.2.46
       '@types/react-dom':
         specifier: ^18.0.7
         version: 18.2.3
@@ -65,7 +65,7 @@ importers:
         version: 10.4.16(postcss@8.4.32)
       eslint:
         specifier: ^8.53.0
-        version: 8.53.0
+        version: 8.54.0
       postcss:
         specifier: ^8.4.31
         version: 8.4.32
@@ -74,7 +74,7 @@ importers:
         version: 3.4.0
       typescript:
         specifier: ^5.2.2
-        version: 5.2.2
+        version: 5.3.3
 
   apps/web:
     dependencies:
@@ -680,7 +680,7 @@ packages:
       debug: 4.3.4
       espree: 9.6.1
       globals: 13.23.0
-      ignore: 5.2.4
+      ignore: 5.3.0
       import-fresh: 3.3.0
       js-yaml: 4.1.0
       minimatch: 3.1.2
@@ -1106,7 +1106,7 @@ packages:
   /@types/react-dom@18.2.3:
     resolution: {integrity: sha512-hxXEXWxFJXbY0LMj/T69mznqOZJXNtQMqVxIiirVAZnnpeYiD4zt+lPsgcr/cfWg2VLsxZ1y26vigG03prYB+Q==}
     dependencies:
-      '@types/react': 18.2.5
+      '@types/react': 18.2.46
     dev: true
 
   /@types/react@18.2.46:
