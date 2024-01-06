@@ -11,7 +11,7 @@ export default async function Page(): Promise<JSX.Element> {
       {/* <Card href="https://test.com" title="something">
         Hello World
       </Card> */}
-      <h1 className="text-blue-700">{JSON.stringify(res)}</h1>
+      <h1 className="text-blue-700">Hello World</h1>
     </main>
   );
 }
