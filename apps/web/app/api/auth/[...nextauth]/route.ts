@@ -1,7 +1,6 @@
 import NextAuth from 'next-auth';
 import GithubProvider from 'next-auth/providers/github';
 
-console.log(process.env.GITHUB_ID);
 export const authOptions = {
   providers: [
     GithubProvider({
@@ -14,4 +13,4 @@ export const authOptions = {
 
 export const handler = NextAuth(authOptions);
 
-export { handler as GET, handler as PORT };
+export { handler as GET, handler as POST };
