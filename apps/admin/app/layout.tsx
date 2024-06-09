@@ -1,5 +1,5 @@
 import './global.css';
-import '@repo/ui/styles.css';
+import '@fc/ui/styles.css';
 
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
@@ -11,11 +11,7 @@ export const metadata: Metadata = {
   description: 'Gives teachers & admin access',
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}): JSX.Element {
+export default function RootLayout({ children }: { children: React.ReactNode }): JSX.Element {
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>

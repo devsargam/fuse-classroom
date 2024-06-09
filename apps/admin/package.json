@@ -9,25 +9,25 @@
     "lint": "eslint . --max-warnings 0"
   },
   "dependencies": {
-    "@repo/ui": "workspace:*",
-    "@repo/database": "workspace:*",
-    "next": "^14.0.3",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "@fc/db": "workspace:*",
+    "@fc/ui": "workspace:*",
+    "next": "^14.2.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@next/eslint-plugin-next": "^14.0.2",
-    "@repo/eslint-config": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
-    "@repo/tailwind-config": "workspace:*",
-    "@types/eslint": "^8.44.7",
-    "@types/node": "^17.0.12",
-    "@types/react": "^18.0.22",
-    "@types/react-dom": "^18.0.7",
-    "autoprefixer": "^10.4.16",
-    "eslint": "^8.53.0",
-    "postcss": "^8.4.31",
-    "tailwindcss": "^3.4.0",
-    "typescript": "^5.2.2"
+    "@fc/eslint-config": "workspace:*",
+    "@fc/tailwind-config": "workspace:*",
+    "@fc/typescript-config": "workspace:*",
+    "@next/eslint-plugin-next": "^14.2.3",
+    "@types/eslint": "^8.56.10",
+    "@types/node": "^17.0.45",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.4.5"
   }
 }

@@ -27,17 +27,8 @@ export const SideNav = (): JSX.Element => {
       <div className="grid max-w-sm h-full place-items-center grid-cols-2 mx-auto font-medium">
         {routes.map(({ title, href, img }) => (
           <Link href={href}>
-            <button
-              type="button"
-              className="inline-flex flex-col items-center justify-center px-5"
-            >
-              <Image
-                className="fill-white"
-                src={img}
-                alt={`${title} - img`}
-                height={50}
-                width={50}
-              />
+            <button type="button" className="inline-flex flex-col items-center justify-center px-5">
+              <Image className="fill-white" src={img} alt={`${title} - img`} height={50} width={50} />
               <span className="text-sm text-white">{title}</span>
             </button>
           </Link>

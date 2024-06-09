@@ -1,5 +1,5 @@
 import './global.css';
-import '@repo/ui/styles.css';
+import '@fc/ui/styles.css';
 
 import type { Metadata } from 'next';
 import { getServerSession } from 'next-auth';
@@ -16,11 +16,7 @@ export const metadata: Metadata = {
   description: 'An AI based learning platform',
 };
 
-export default async function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}): Promise<JSX.Element> {
+export default async function RootLayout({ children }: { children: React.ReactNode }): Promise<JSX.Element> {
   const session = await getServerSession();
 
   console.log(session);

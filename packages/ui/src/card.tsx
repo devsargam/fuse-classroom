@@ -15,9 +15,7 @@ export const Card: React.FC<CardProps> = ({ title, children, href }) => {
           -&gt;
         </span>
       </h2>
-      <p className="ui-m-0 ui-max-w-[30ch] ui-text-sm ui-opacity-50">
-        {children}
-      </p>
+      <p className="ui-m-0 ui-max-w-[30ch] ui-text-sm ui-opacity-50">{children}</p>
     </>
   );
 };
